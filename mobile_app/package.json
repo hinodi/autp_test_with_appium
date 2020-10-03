@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build_debug_ios": "xcodebuild -workspace ios/mobile_app.xcworkspace -scheme mobile_app -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build"
   },
   "dependencies": {
     "react": "16.13.1",
